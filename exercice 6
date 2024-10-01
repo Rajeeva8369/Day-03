@@ -1,7 +1,5 @@
 fruits = ["Blackberries", "Apple", "Banana", "Mango", "Peaches", "Kiwi"];
-
 let fruitName = "Banana"
-
 function findFruitIndex(fruitName) {
     const index = fruits.indexOf(fruitName);
     if (index === -1) {
@@ -10,9 +8,7 @@ function findFruitIndex(fruitName) {
     return index;
     }
 }
-
-function displayResult(result) {
-	console.log(result);    
+function disdis(result) {   
+displayResult(result);
 }
-
-displayResult(findFruitIndex(fruitName));
+disdis(findFruitIndex(fruitName));
